@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ProofPulse — Social Proof SaaS ⚡
 
-## Getting Started
+> **🇫🇷 Résumé (FR) :** Application visant à augmenter les taux de conversion des sites web en automatisant la collecte et l'affichage de preuves sociales (témoignages, achats récents).
 
-First, run the development server:
+**A conversion rate optimization (CRO) tool designed to build trust through automated social proof.**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 The Problem
+Online businesses struggle to convert cold traffic into buyers. Without visible trust signals (like recent purchases or verified reviews), bounce rates remain high and customer acquisition costs (CAC) skyrocket.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 💡 The Solution
+ProofPulse acts as a trust layer. It collects data (reviews, sales) and displays them as non-intrusive, real-time widgets on the client's website, directly boosting the end-user's confidence.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+* **Frontend:** React / Next.js
+* **Backend:** Node.js / Serverless functions
+* **Database:** Firebase / Supabase *(Choose the correct one)*
+* **Authentication:** *(Specify what you used, e.g., NextAuth, Firebase Auth)*
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Features
+* **Dashboard:** Analytics and widget configuration for the business owner.
+* **Widget Injection:** Lightweight script to embed on any external website.
+* **Real-time Updates:** WebSocket or polling mechanisms to show live data.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*(Add a quick screenshot of the dashboard here to prove it's a real, visual product).*
